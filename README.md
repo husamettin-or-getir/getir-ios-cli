@@ -8,7 +8,7 @@ brew install npm
 
 To install CLI, you can use:
 ```bash
-npm i -g git+ssh://git@github.com:user_name/node_project.git
+npm i -g git+ssh://git@github.com:husamettin-or-getir/getir-ios-cli.git
 ```
 
 ## Usage
