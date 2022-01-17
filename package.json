@@ -1,0 +1,20 @@
+{
+  "name": "getir-ios-cli",
+  "version": "1.0.0",
+  "description": "A CLI to manage Getir iOS project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Hüsamettin Or",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "open": "^8.4.0"
+  },
+  "bin": {
+    "getir": "index.js"
+  }
+}
