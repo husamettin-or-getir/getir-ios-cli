@@ -75,7 +75,7 @@ function log(task, options) {
 }
 
 function createFile(directory, task, message) {
-    const content = `- ${message} [${task}] (https://getirdev.atlassian.net/browse/${task})`
+    const content = `- ${message} [${task}](https://getirdev.atlassian.net/browse/${task})`
     fs.writeFile(directory, content, { flag: 'wx' }, function(error) {
         if (error) throw error
 

@@ -1,8 +1,13 @@
 #! /usr/bin/env node
 
 const { program } = require('commander')
+const initialize = require('./commands/initialize')
 const log = require('./commands/log')
 const markRepo = require('./commands/mark-repo')
+
+program
+    .command('initialize')
+    .action(initialize)
 
 program
     .command('log')
